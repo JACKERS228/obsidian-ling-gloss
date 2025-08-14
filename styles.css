@@ -134,3 +134,12 @@
 .ling-gloss-level-a.ling-style-cjk {
     font-style: unset !important;
 }
+/* Node boxes, edges, movement lines */
+.ling-tree-svg { vertical-align: middle; overflow: visible; }
+.ling-tree-node rect { fill: var(--background-secondary); stroke: var(--text-muted); }
+.ling-tree-node text { font: 12px/1.2 var(--font-monospace); fill: var(--text-normal); }
+.ling-tree-edge { stroke: var(--text-muted); stroke-width: 1; fill: none; }
+.ling-tree-move { stroke: var(--color-accent); stroke-width: 1.5; fill: none; stroke-dasharray: 4 3; }
+.ling-tree-feature text { font: 10px var(--font-monospace); fill: var(--text-muted); }
+.ling-tree-inline { display: inline-block; margin: 0 0.15rem; }
+.ling-tree-error { color: var(--text-error); }
